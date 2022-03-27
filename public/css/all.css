@@ -1,0 +1,215 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&family=Secular+One&display=swap');
+/* ENDIMPORTS */
+:root{
+    --bs-dark: #4a4a4a; 
+    --bs-danger: #c7282d; 
+    --bs-dark-900: #1e1e1f;
+}
+
+/* GLOBALS STYLE  */
+body{
+    line-height: 1.5;
+    color: #0a0a0a !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+}
+
+button{
+    font-size: 18px !important;
+}
+
+input:focus {
+    box-shadow: none;
+}
+
+.__NO_UNDERLINE{
+    text-decoration: none;
+}
+/* END GLOBLA */
+
+/* HEADER STYLE */
+.__HEADER_STYLE{
+    padding: 10px 0;
+    max-width: 75rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+.__HEADER_COLOR_DARK_900{
+    background-color: var(--bs-dark-900);
+}
+
+._DIV_BETWEEN_LOGO_HEADER_ img{
+    width: 100px;
+    height: 50px;
+}
+
+/* END HEADER STYLE */
+
+/* BODY */
+
+.__LOGOS_BODY div img{
+    max-width: 162px;
+    max-height: 86px;
+}
+
+.__LOGOS_BODY div ._TITLE{
+    line-height: 30px;
+    text-transform: uppercase;
+    line-height: 30px;
+    color: #1e1e1f;
+    font-size: 33px;
+    font-weight: 900 !important;
+}
+
+.__LOGIN_FORM .__BOX{
+border-color: var(--bs-dark-900);
+border-style: solid;
+}
+
+.__LOGIN_FORM .__BORDER_3PX, .__CARD_FORM .__BORDER_5PX{
+    border-width: 3px !important;
+}
+.__LOGIN_FORM .__BORDER_5PX, .__CARD_FORM .__BORDER_5PX{
+    border-width: 5px !important;
+}
+
+.__LOGIN_FORM div h6 {
+    margin: 0;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.__BORDER_BOTTOM_BLACK{
+    border-bottom: 1px solid var(--bs-dark-900);
+}
+
+.__INPUT_FLOAT_CUSTUMIZED{
+    height: calc(2.5rem + 2px) !important;
+}
+
+.__CARD_TITLE{
+    font-weight: 900 !important;
+}
+
+._INVALID_CPF{
+    visibility: hidden;
+}
+
+.__TITLE_H1{
+    font-size: 24px !important;
+    font-weight: 900 !important;
+}
+
+.__CARD_FORM, .__BORDER_5PX{
+    border-color: var(--bs-dark-900);
+    border-style: solid;
+    border-width: 5px;
+}
+
+.bg-gray-light{
+    background-color: #d3d3d3 !important;
+}
+
+
+.dot i{
+    font-size: 8px;
+}
+
+@media (max-width: 767px){
+    .__LOGOS_BODY div ._TITLE {
+        text-align: left;
+        line-height: 20px;
+        font-size: 20px;
+    }
+}
+
+
+/* SECTION 2 */
+
+.bg-login{
+    background-image: url('../img/bg-login.svg');
+}
+
+._TITLE_H3{
+    font-weight: 900 !important;
+    font-family: Roboto, Arial, Helvetica, Helvetica Neue, sans-serif;
+}
+._TITLE_H4{
+    font-weight: 900 !important;
+    font-family: Roboto, Arial, Helvetica, Helvetica Neue, sans-serif;
+    font-size: 18px;
+}
+
+._CUSTUM_LAST_FORM>label{
+    padding: 0.4rem .75rem !important;
+}
+._CUSTUM_LAST_FORM input:focus{
+    box-shadow:none !important;
+    border: 0.8px solid rgb(75, 73, 73) !important;
+}
+
+
+._CUSTUM_LAST_FORM label{
+    font-size: 15px !important;
+}
+
+/* END SECTION 2 */
+
+/* END BODY STYLE */
+
+/* FOOTER STYLE */
+footer{
+    background-color: #232323 !important;
+}
+.__LIST{
+    list-style: none;
+}
+
+.__LIST_ITEM a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.__LIST_ITEM a:hover{
+    text-decoration: underline;
+}
+
+._FOOTER_TITLE_H4{
+    font-weight: 800;
+    font-size: medium;
+    color: whitesmoke;
+}
+
+.__TITLE_H4_RIGHT_FOOTER{
+    display: block;
+    color: white;
+    font-weight: bolder !important;
+    margin: 0 0 14px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    width: 100%;
+    font-size: 20px;
+}
+
+._LINK{
+    text-decoration: underline !important;
+}
+._NAV_LINK, ._NAV_LINK_TITLE{
+    color: white;
+    text-decoration: none;
+}
+._NAV_LINK:hover, ._NAV_LINK_TITLE:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+._NAV_LINK_TITLE{
+    font-size: 19px;
+    font-weight: 900;
+}
+/* END FOOTER STYLE */
